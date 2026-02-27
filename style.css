@@ -1,3 +1,30 @@
+.merriweather-h1 {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.merriweather-div {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.roboto-text {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
 * {
     margin: 0;
 }
@@ -42,7 +69,12 @@ h1 {
     width: 300px;
     height: 500px;
     cursor: pointer;
-}    
+}
+
+.format {
+    font-size: 20px;
+    font-style: bold;
+}
 
 /*.left {
     margin: 40px 10px 10px 200px;
@@ -57,6 +89,7 @@ h1 {
     border: 2px solid #ffffff;
     box-shadow:none;
     transition-duration: border;
+    color: #ffffff;
 }
 
 .alpine:hover {
@@ -71,6 +104,7 @@ h1 {
     border: 2px solid #ffffff;
     box-shadow:none;
     transition-duration: border;
+    color: #ffffff;
 }
 
 .aston:hover {
@@ -99,6 +133,7 @@ h1 {
     border: 2px solid #ffffff;
     box-shadow:none;
     transition-duration: border;
+    color: #ffffff;
 }
 
 .cadillac:hover {
@@ -183,6 +218,7 @@ h1 {
     border: 2px solid #ffffff;
     box-shadow:none;
     transition-duration: border;
+    color: #ffffff;
 }
 
 .redbull:hover {
@@ -203,5 +239,6 @@ h1 {
     transition-duration: 0.5s;
     transform: translateY(-5px);
     margin-top:-5px;
-    box-shadow: 5px 2px 2px rgb(27, 103, 255)
+    box-shadow: 5px 2px 2px rgb(27, 103, 255);
+    color: #ffffff;
 }
