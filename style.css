@@ -1,0 +1,38 @@
+#drivers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,350px);
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+#drivers > div {
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 2px solid #d5d5d5;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+
+    width: 300px;
+    height: 500px;
+    
+}
+
+/*.left {
+    margin: 40px 10px 10px 200px;
+}
+
+.right {
+    margin: 40px 200px 10px 10px;
+}*/
+
+.mclaren {
+    background-color: #ffa46f;
+}
+
+.rbr {
+    background-color: rgb(9, 0, 186);
+}
