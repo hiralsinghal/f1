@@ -43,16 +43,7 @@ h1 {
     width: 300px;
     height: 500px;
     cursor: pointer;
-    transition-duration: border;
 }    
-
-
-#drivers > div:hover {
-    transition-duration: 1.5s;
-    transform: translateY(-5px);
-    margin-top:-5px;
-    border: 10px solid rgb(255, 255, 255)
-}
 
 /*.left {
     margin: 40px 10px 10px 200px;
@@ -64,43 +55,143 @@ h1 {
 
 .alpine {
     background-color: #0085C0;
+    box-shadow:none;
+    transition-duration: border;
+}
+
+.alpine:hover {
+    transition-duration: 0.5s;
+    transform: translateY(-5px);
+    margin-top:-5px;
+    box-shadow: 10px 5px 4px rgb(105, 155, 255);
 }
 
 .aston {
     background-color: #186B4F;
+    box-shadow:none;
+    transition-duration: border;
+}
+
+.aston:hover {
+    transition-duration: 0.5s;
+    transform: translateY(-5px);
+    margin-top:-5px;
+    box-shadow: 5px 2px 2px rgba(15, 255, 79, 0.87);
 }
 
 .audi {
     background-color: #D9002A;
+    box-shadow:none;
+    transition-duration: border;
+}
+
+.audi:hover {
+    transition-duration: 0.5s;
+    transform: translateY(-5px);
+    margin-top:-5px;
+    box-shadow: 10px 5px 4px rgb(105, 155, 255);
 }
 
 .cadillac {
     background-color: #868689;
+    box-shadow:none;
+    transition-duration: border;
+}
+
+.cadillac:hover {
+    transition-duration: 0.5s;
+    transform: translateY(-5px);
+    margin-top:-5px;
+    box-shadow: 10px 5px 4px rgb(105, 155, 255);
 }
 
 .ferrari {
     background-color: #D9002A;
+    box-shadow:none;
+    transition-duration: border;
+}
+
+.ferrari:hover {
+    transition-duration: 0.5s;
+    transform: translateY(-5px);
+    margin-top:-5px;
+    box-shadow: 10px 5px 4px rgb(105, 155, 255);
 }
 
 .haas {
     background-color: #CDD1D2;
+    box-shadow:none;
+    transition-duration: border;
+}
+
+.haas:hover {
+    transition-duration: 0.5s;
+    transform: translateY(-5px);
+    margin-top:-5px;
+    box-shadow: 10px 5px 4px rgb(105, 155, 255);
 }
 
 .mclaren {
     background-color: #F27900;
+    box-shadow:none;
+    transition-duration: border;
+}
+
+.mclaren:hover {
+    transition-duration: 0.5s;
+    transform: translateY(-5px);
+    margin-top:-5px;
+    box-shadow: 10px 5px 4px rgb(15, 255, 80);
 }
 
 .mercedes {
     background-color: #23E4C4;
+    box-shadow:none;
+    transition-duration: border;
+}
+
+.mercedes:hover {
+    transition-duration: 0.5s;
+    transform: translateY(-5px);
+    margin-top:-5px;
+    box-shadow: 10px 5px 4px rgb(105, 155, 255);
 }
 
 .racing_bulls {
     background-color: #5886F7;
+    box-shadow:none;
+    transition-duration: border;
 }
+
+.racing_bulls:hover {
+    transition-duration: 0.5s;
+    transform: translateY(-5px);
+    margin-top:-5px;
+    box-shadow: 10px 5px 4px rgb(105, 155, 255);
+}
+
 .redbull {
-    background-color: #3166B4
+    background-color: #3166B4;
+    box-shadow:none;
+    transition-duration: border;
+}
+
+.redbull:hover {
+    transition-duration: 0.5s;
+    transform: translateY(-5px);
+    margin-top:-5px;
+    box-shadow: 10px 5px 4px rgb(105, 155, 255);
 }
 
 .williams {
     background-color: #114693;
+    box-shadow:none;
+    transition-duration: border;
+}
+
+.williams:hover {
+    transition-duration: 0.5s;
+    transform: translateY(-5px);
+    margin-top:-5px;
+    box-shadow: 10px 5px 4px rgb(105, 155, 255);
 }
