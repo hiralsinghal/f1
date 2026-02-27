@@ -1,3 +1,27 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+header {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+h1 {
+    background-color: #cdcdcd;
+    color: #000000;
+    border-radius: 10px;
+    width: 200px;
+}
+
 #drivers {
     display: grid;
     grid-template-columns: repeat(auto-fit,350px);
@@ -15,10 +39,18 @@
     text-align: center;
     padding: 10px;
     margin: 10px;
-
     width: 300px;
     height: 500px;
-    
+}    
+
+.hover {
+    cursor: pointer;
+}
+
+.hover :hover {
+    transform: translateZ(10px);
+    margin-top:-30px;
+    border-color: rgba(38, 191, 71, 1);
 }
 
 /*.left {
@@ -29,10 +61,45 @@
     margin: 40px 200px 10px 10px;
 }*/
 
-.mclaren {
-    background-color: #ffa46f;
+.alpine {
+    background-color: #0085C0;
 }
 
-.rbr {
-    background-color: rgb(9, 0, 186);
+.aston {
+    background-color: #186B4F;
+}
+
+.audi {
+    background-color: #D9002A;
+}
+
+.cadillac {
+    background-color: #868689;
+}
+
+.ferrari {
+    background-color: #D9002A;
+}
+
+.haas {
+    background-color: #CDD1D2;
+}
+
+.mclaren {
+    background-color: #F27900;
+}
+
+.mercedes {
+    background-color: #23E4C4;
+}
+
+.racing_bulls {
+    background-color: #5886F7;
+}
+.redbull {
+    background-color: #3166B4
+}
+
+.williams {
+    background-color: #114693;
 }
