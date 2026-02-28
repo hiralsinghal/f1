@@ -1,3 +1,4 @@
+/*Fonts*/
 .merriweather-h1 {
     font-family: "Merriweather", serif;
     font-optical-sizing: auto;
@@ -7,7 +8,7 @@
         "wdth" 100;
 }
 
-.merriweather-div {
+.merriweather-h2 {
     font-family: "Merriweather", serif;
     font-optical-sizing: auto;
     font-weight: 450;
@@ -15,7 +16,6 @@
     font-variation-settings:
         "wdth" 100;
 }
-
 
 .montserrat-text {
   font-family: "Montserrat", sans-serif;
@@ -41,15 +41,6 @@ body {
     background-color: #000000;
 }
 
-header {
-    color: #ffffff;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    justify-content: center;
-    justify-items: center;
-}
-
 h1 {
     background-color: #cdcdcd;
     color: #000000;
@@ -57,19 +48,32 @@ h1 {
     width: 200px;
 }
 
-#drivers {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,350px);
-    gap: 10px;
+h2 {
+    font-size: 25px;
+    font-style: bold;
+}
+
+header {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
     justify-content: center;
     justify-items: center;
 }
 
-#drivers > div {
+.drivers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,350px);
+    gap: 15px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.drivers > div {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    border-color: #d5d5d5;
     border-radius: 10px;
     text-align: center;
     padding: 10px;
@@ -79,10 +83,10 @@ h1 {
     cursor: pointer;
 }
 
-.format {
+/*.format {
     font-size: 25px;
     font-style: bold;
-}
+}*/
 
 .pFormat {
     font-size: 19px;
@@ -115,13 +119,12 @@ h1 {
 }
 
 .flip-card-back {
-  color: white;
   transform: rotateY(180deg);
 }
 
 .alpine {
     background-color: #0085C0;
-    border: 2px solid #ffffff;
+    border: 2px solid #D45497;
     box-shadow:none;
     transition-duration: border;
     color: #ffffff;
