@@ -20,7 +20,7 @@
 .montserrat-text {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 450;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -51,6 +51,13 @@ h1 {
 h2 {
     font-size: 25px;
     font-style: bold;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: left;
+    padding: 0 5px 5px 5px;
 }
 
 header {
@@ -147,7 +154,7 @@ header {
 .aston:hover {
     transition-duration: 0.5s;
     transform: translateY(-5px) scale(1.04);
-    box-shadow:0 0 5px 5px #CBC941;
+    box-shadow:0 0 5px 5px #186B4F;
 }
 
 .audi {
@@ -182,6 +189,7 @@ header {
     border: 2px solid #ffffff;
     box-shadow:none;
     transition-duration: border;
+    color: #ffffff;
 }
 
 .ferrari:hover {
