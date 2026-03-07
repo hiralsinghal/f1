@@ -77,7 +77,7 @@ header {
     border-radius: 10px;
     text-align: center;
     padding: 10px;
-    margin: 15px;
+    margin: 20px;
     width: 300px;
     height: 500px;
     cursor: pointer;
@@ -132,14 +132,13 @@ header {
 
 .alpine:hover {
     transition-duration: 0.5s;
-    transform: translateY(-5px);
-    margin-top:-5px;
-    box-shadow: 5px 2px 2px rgb(105, 155, 255);
+    transform: translateY(-5px) scale(1.04);
+    box-shadow:0 0 5px 5px rgb(105, 155, 255);
 }
 
 .aston {
     background-color: #186B4F;
-    border: 2px solid #ffffff;
+    border: 2px solid #CBC941;
     box-shadow:none;
     transition-duration: border;
     color: #ffffff;
@@ -147,9 +146,8 @@ header {
 
 .aston:hover {
     transition-duration: 0.5s;
-    transform: translateY(-5px);
-    margin-top:-5px;
-    box-shadow: 5px 2px 2px rgba(15, 255, 79, 0.87);
+    transform: translateY(-5px) scale(1.04);
+    box-shadow:0 0 5px 5px #CBC941;
 }
 
 .audi {
@@ -161,9 +159,8 @@ header {
 
 .audi:hover {
     transition-duration: 0.5s;
-    transform: translateY(-5px);
-    margin-top:-5px;
-    box-shadow: 5px 2px 2px rgb(255, 105, 105);
+    transform: translateY(-5px) scale(1.04);
+    box-shadow:0 0 5px 5px rgb(255, 105, 105);
 }
 
 .cadillac {
@@ -176,9 +173,8 @@ header {
 
 .cadillac:hover {
     transition-duration: 0.5s;
-    transform: translateY(-5px);
-    margin-top:-5px;
-    box-shadow: 5px 2px 2px rgb(221, 221, 221);
+    transform: translateY(-5px) scale(1.04);
+    box-shadow:0 0 5px 5px rgb(221, 221, 221);
 }
 
 .ferrari {
@@ -190,9 +186,8 @@ header {
 
 .ferrari:hover {
     transition-duration: 0.5s;
-    transform: translateY(-5px);
-    margin-top:-5px;
-    box-shadow: 5px 2px 2px rgb(255, 105, 105);
+    transform: translateY(-5px) scale(1.04);
+    box-shadow:0 0 5px 5px rgb(255, 105, 105);
 }
 
 .haas {
@@ -204,9 +199,8 @@ header {
 
 .haas:hover {
     transition-duration: 0.5s;
-    transform: translateY(-5px);
-    margin-top:-5px;
-    box-shadow: 5px 2px 2px rgb(114, 114, 114);
+    transform: translateY(-5px) scale(1.04);
+    box-shadow:0 0 5px 5px rgb(114, 114, 114);
 }
 
 .mclaren {
@@ -218,9 +212,8 @@ header {
 
 .mclaren:hover {
     transition-duration: 0.5s;
-    transform: translateY(-5px);
-    margin-top:-5px;
-    box-shadow: 5px 2px 2px rgb(255, 147, 15)
+    transform: translateY(-5px) scale(1.04);
+    box-shadow:0 0 5px 5px rgb(255, 147, 15)
 }
 
 .mercedes {
@@ -232,9 +225,8 @@ header {
 
 .mercedes:hover {
     transition-duration: 0.5s;
-    transform: translateY(-5px);
-    margin-top:-5px;
-    box-shadow: 5px 2px 2px rgb(105, 255, 190);
+    transform: translateY(-5px) scale(1.04);
+    box-shadow:0 0 5px 5px rgb(105, 255, 190);
 }
 
 .racing_bulls {
@@ -246,9 +238,8 @@ header {
 
 .racing_bulls:hover {
     transition-duration: 0.5s;
-    transform: translateY(-5px);
-    margin-top:-5px;
-    box-shadow: 5px 2px 2px rgb(105, 155, 255);
+    transform: translateY(-5px) scale(1.04);
+    box-shadow:0 0 5px 5px rgb(105, 155, 255);
 }
 
 .redbull {
@@ -261,9 +252,8 @@ header {
 
 .redbull:hover {
     transition-duration: 0.5s;
-    transform: translateY(-5px);
-    margin-top:-5px;
-    box-shadow: 5px 2px 2px rgb(82, 108, 255);
+    transform: translateY(-5px) scale(1.04);
+    box-shadow:0 0 5px 5px rgb(82, 108, 255);
 }
 
 .williams {
@@ -271,12 +261,12 @@ header {
     border: 2px solid #ffffff;
     box-shadow:none;
     transition-duration: border;
+    color: #ffffff;
 }
 
 .williams:hover {
     transition-duration: 0.5s;
-    transform: translateY(-5px);
-    margin-top:-5px;
-    box-shadow: 5px 2px 2px rgb(27, 103, 255);
+    transform: translateY(-5px) scale(1.04);
+    box-shadow:0 0 5px 5px rgb(27, 103, 255);
     color: #ffffff;
 }
